@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.iwd3.HHOmaha" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>HHOmaha</name>
+<widget id="com.iwd3.HHBoulder" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>HHBoulder</name>
     <description>
-        HHOmaha.
+        HHBoulder.
     </description>
     <author email="support@iwd3.com" href="http://iwd3.com">
         IWD3 Team
