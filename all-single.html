@@ -64,7 +64,7 @@
 					//alert('http://omahahappyhours.com/omaha3/services/s2.php?Id='+myParam+'&x=109');
 					//add DOW, current time of day HH:MM
 					//$.getJSON('http://omahahappyhours.com/omaha3/services/s2.php?Id='+myParam+'&x=109',
-					$.getJSON('http://omahahappyhours.com/omaha3/services/s2.php?Id='+myParam+'&x=109 ',
+					$.getJSON('http://boulderhappyhours.com/boulder/services/s2.php?Id='+myParam+'&x=109 ',
 					// No additional parameters sent- If you want you can send below  
 					{},
 					function (data) { 
@@ -74,9 +74,9 @@
 							
 							a1 += '<article>';
 							if ( myParam != null || myParam != "") {
-									a1 += '</br><img src="http://omahahappyhours.com/omaha3/services/img/'+myParam+'.jpg" alt="Image not found" onError="this.src="img/gallery/2.jpg"/>';
+									a1 += '</br><img src="http://boulderhappyhours.com/boulder/services/img/'+myParam+'.jpg" alt="Image not found" onError="this.src="img/gallery/2.jpg"/>';
 								}else{
-									a1 += '</br><img src="http://omahahappyhours.com/omaha3/services/img/gallery/2.jpg" alt="Image not found" onError="this.src="img/gallery/2.jpg"/>';
+									a1 += '</br><img src="http://boulderhappyhours.com/boulder/services/img/gallery/2.jpg" alt="Image not found" onError="this.src="img/gallery/2.jpg"/>';
 								};
 								//a1 +='</br><img src="http://omahahappyhours.com/omaha3/services/App/img/gallery/2.jpg" alt="Image not found" onError="this.src="img/gallery/2.jpg" />';
 								
@@ -261,7 +261,7 @@
 			var tue = "";
 			
 				//alert(" Look 1: "+id );
-			var link = 'http://omahahappyhours.com/omaha3/services/s4.php?id='+id+'&x=2';
+			var link = 'http://boulderhappyhours.com/boulder/services/s4.php?id='+id+'&x=2';
 				$.getJSON(link,
 				{},
 				function (data) {  					

@@ -67,7 +67,7 @@
 					+ currentdate.getMinutes() + ":" + currentdate.getSeconds();
 
 					//$.getJSON('http://omahahappyhours.com/omaha3/services/s1.php',
-					var link = 'http://omahahappyhours.com/omaha3/services/s0b.php?lat='+lat1+'&long='+lon1+'&dayofweek='+dayofweek+'&timeofday='+currentdate.getHours() + ":" 
+					var link = 'http://boulderhappyhours.com/boulder/services/s0b.php?lat='+lat1+'&long='+lon1+'&dayofweek='+dayofweek+'&timeofday='+currentdate.getHours() + ":" 
 					+ currentdate.getMinutes();
 		
 					$.getJSON(link,
@@ -139,7 +139,7 @@
 				function panelB() {
 					//alert("Here B1");
 					//var items2 = [];
-					$.getJSON('http://omahahappyhours.com/omaha3/services/s0.php',
+					$.getJSON('http://boulderhappyhours.com/boulder/services/s0.php',
 					// No additional parameters sent- If you want you can send below  
 					{},					
 					function (data) {  
